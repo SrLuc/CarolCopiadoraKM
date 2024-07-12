@@ -2355,7 +2355,7 @@ button:disabled,
   margin: -3.5em 0 0 -3.5em;
   position: absolute;
   top: 50%;
-  width: 8em;
+  width: 7em;
 }
 .features article .content {
   -moz-flex-grow: 1;
