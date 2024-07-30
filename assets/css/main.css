@@ -11,27 +11,33 @@
   font-family: "Lato", sans-serif;
 }
 
-
 /*STYLES*/
 
-.title{
-  color:var(--cor-primaria);
+.buttonsbigs {
+  margin: 13px 0;
 }
 
-.logo-img{
+.flexbuttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: var(--cor-primaria);
+}
+
+.logo-img {
   width: 310px;
 }
 
-iframe{
+iframe {
   width: 100%;
   height: 30vh;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   border-radius: 15px;
 }
-
-
-
-
 
 html,
 body,
@@ -2163,11 +2169,11 @@ button,
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: transparent;
   border-radius: 0.375em;
   border: 0;
-  box-shadow: inset 0 0 0 2px var(--cor-primaria);
-  color: var(--cor-primaria) !important;
+  color: #2023baca;
+  background-color: #dcddeb9d;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   cursor: pointer;
   display: inline-block;
   font-family: "Roboto Slab", serif;
@@ -2187,7 +2193,8 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  background-color: rgba(245, 106, 106, 0.05);
+  background-color: #0e63b9bb;
+  color: #ffffff !important;
 }
 input[type="submit"]:active,
 input[type="reset"]:active,
@@ -2195,6 +2202,7 @@ input[type="button"]:active,
 button:active,
 .button:active {
   background-color: rgba(106, 143, 245, 0.15);
+  
 }
 input[type="submit"].icon:before,
 input[type="reset"].icon:before,
@@ -2231,16 +2239,16 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-  background-color: var(--cor-primaria);
+  background-color: #15973ea1;
   box-shadow: none;
-  color: #1a2f55 !important;
+  color: #ffffff !important;
 }
 input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #78a4f6;
+  background-color: #129845;
 }
 input[type="submit"].primary:active,
 input[type="reset"].primary:active,
@@ -2367,7 +2375,6 @@ button:disabled,
   -ms-flex-shrink: 1;
   flex-shrink: 1;
   width: 100%;
-  
 }
 .features article .content > :last-child {
   margin-bottom: 0;
@@ -2725,8 +2732,6 @@ button:disabled,
   border-bottom: solid 2px rgba(210, 215, 217, 0.75);
   margin: 0 0 3.5em 0;
   padding: 0 0 3.5em 0;
-
-
 }
 #sidebar > .inner > * > :last-child {
   margin-bottom: 0;
@@ -2737,7 +2742,6 @@ button:disabled,
   border-bottom: 0;
   margin-bottom: 0;
   padding-bottom: 0;
-  
 }
 #sidebar > .inner > .alt {
   background-color: #eff1f2;
@@ -2745,7 +2749,6 @@ button:disabled,
   margin: -2.22222em 0 4.44444em -2.22222em;
   padding: 2.22222em;
   width: calc(100% + 4.44444em);
-  
 }
 #sidebar .toggle {
   text-decoration: none;
@@ -2768,7 +2771,6 @@ button:disabled,
   top: 0;
   width: 7em;
   z-index: 10000;
-  
 }
 #sidebar .toggle:before {
   -moz-osx-font-smoothing: grayscale;
@@ -2781,7 +2783,6 @@ button:disabled,
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  
 }
 #sidebar .toggle:before {
   content: "\f0c9";
@@ -2793,7 +2794,6 @@ button:disabled,
   text-indent: 0;
   top: 0;
   width: inherit;
-  
 }
 #sidebar.inactive {
   margin-left: -26em;
@@ -3057,12 +3057,10 @@ button:disabled,
   display: block;
   font-size: 1em;
   padding: 0.625em 0;
-  
 }
 #menu ul a:hover,
 #menu ul span:hover {
   color: var(--cor-primaria);
-
 }
 #menu ul a.opener,
 #menu ul span.opener {
@@ -3073,7 +3071,6 @@ button:disabled,
   text-decoration: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   position: relative;
-  
 }
 #menu ul a.opener:before,
 #menu ul span.opener:before {
@@ -3087,7 +3084,6 @@ button:disabled,
   text-transform: none !important;
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  
 }
 #menu ul a.opener:before,
 #menu ul span.opener:before {
@@ -3099,7 +3095,6 @@ button:disabled,
   content: "\f078";
   position: absolute;
   right: 0;
-
 }
 #menu ul a.opener:hover:before,
 #menu ul span.opener:hover:before {
