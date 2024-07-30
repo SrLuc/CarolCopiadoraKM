@@ -2172,7 +2172,8 @@ button,
   border-radius: 0.375em;
   border: 0;
   color: #2023baca;
-  background-color: #dcddeb9d;
+  border: solid 1px #2023baca;
+  background-color: #ffffff9d;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   cursor: pointer;
   display: inline-block;
@@ -2193,7 +2194,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  background-color: #0e63b9bb;
+  background-color: var(--cor-primaria);
   color: #ffffff !important;
 }
 input[type="submit"]:active,
@@ -2242,6 +2243,7 @@ button.primary,
   background-color: #15973ea1;
   box-shadow: none;
   color: #ffffff !important;
+  border: none;
 }
 input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
