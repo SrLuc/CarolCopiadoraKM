@@ -2171,9 +2171,8 @@ button,
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   border-radius: 0.375em;
   border: 0;
-  color: #2023baca;
-  border: solid 1px #2023baca;
-  background-color: #ffffff9d;
+  color: #ffffff ;
+  background-color: var(--cor-primaria);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   cursor: pointer;
   display: inline-block;
@@ -2194,7 +2193,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  background-color: var(--cor-primaria);
+background-color: #16228b ;
   color: #ffffff !important;
 }
 input[type="submit"]:active,
