@@ -18,15 +18,17 @@
         <div class="inner">
           <!-- Header -->
           <header id="header">
+            
             <a href="index.html" class="logo">
               <img
-              src="https://carolgrafica.com.br/images/logo-carol-grafica.png"
+              src="images/logo-carol-grafica.png"
               alt="logo"
-              class="logo-img"
-            />
-            </a>
-             
-            </a>
+              class="logo-img"/>
+              
+  
+      
+           
+            
             <ul class="icons">
               <li>
                 <a
@@ -65,7 +67,24 @@
               <header>
                 <h1 class="title">Carol Gráfica</h1>
                 <p>Onde a melhor impressão é a sua satisfação.</p>
-              </header>
+                <div class="carousel-container">
+                  <div class="carousel"> 
+                      <div class="carousel-slide"><!-- A div carrousel-slide representa a imagem, caso queira adicionar mais é só copiar a div e selecionar a imagem pelo img scr -->
+                          <img src="images/Estamos em bv.png" alt="Imagem 1">
+                      </div>
+                      <div class="carousel-slide">
+                          <img src="images/formatura.png" alt="Imagem 2">
+                      </div>
+                      <div class="carousel-slide">
+                          <img src="images/adesivos resinados.png" alt="Imagem 3">
+                      </div>
+                    </div>
+                  <button class="prev-btn" onclick="prevSlide()">&#10094;</button>
+                  <button class="next-btn" onclick="nextSlide()">&#10095;</button>
+              </div>
+              
+              <script src="script.js"></script>
+
               <p>
                 A Carol Gráfica é uma empresa do Grupo Carol que originou-se da
                 necessidade de aprimoramento no ramo esportivo da Carol
@@ -86,11 +105,14 @@
                <div class="flexbuttons">
                 <span class="buttonsbigs">
                   <li>
-                    <a href="https://wa.me/5581999590319?text=Quero%20fazer%20um%20or%C3%A7amento%20" class="button big">Solicite seu orçamento na nossa filial Carol Gráfica, em Areias</a>
+                    <a href="https://wa.me/5581999590319?text=Quero%20fazer%20um%20or%C3%A7amento%20" class="button big">
+                      <span class="icon brands fa-whatsapp"></span> Orçamento em Areias</a>
                   </li>
                 </span>
                <span class="buttonsbigs">
-                <li><a href="https://wa.me/5581997110332?text=Ol%C3%A1%20desejo%20fazer%20um%20or%C3%A7amento" class="button primary">Solicite seu orçamento na nossa filial Carol Gráfica, Boa Viagem</a></li>
+                <li><a href="https://wa.me/5581997110332?text=Ol%C3%A1%20desejo%20fazer%20um%20or%C3%A7amento" class="button primary">
+                  <span class="icon brands fa-whatsapp"></span> Orçamento em Boa Viagem
+                </a></li>
                </span>
                </div>
               </ul>
@@ -255,15 +277,7 @@
                   Fachadas que refletem a seriedade e comprometimento dos Advogados Associados.
                 </p> 
               </article>
-              <article>
-                <a href="https://carolgrafica.com.br/images/servicos/alameda-home-5b27c05259690.jpg" class="image"
-                  ><img src="https://carolgrafica.com.br/images/servicos/alameda-home-5b27c05259690.jpg" alt="Alameda Home"
-                /></a>
-                <h3>Alameda Home</h3>
-                <p>
-                  A fachada da Alameda Home é um convite para entrar e se sentir em casa.
-                </p> 
-              </article>
+             
             </div>
           </section>
         </div>
@@ -282,9 +296,9 @@
               <li>
                 <span class="opener">Adesivação</span>
                 <ul>
-                  <li><a href="/pages/components/adesivacao/recorte.html">Em Recorte</a></li>
-                  <li><a href="/pages/components/adesivacao/leitoso.html">Leitoso</a></li>
-                  <li><a href="/pages/components/adesivacao/perfurado.html">Perfurado</a></li>
+                  <li><a href="./pages/components/adesivacao/adesivojateado.html">Adesivo Jateado</a></li>
+                  <li><a href="./pages/components/adesivacao/adesivosvinilicos.html">Adesivos Vinílicos</a></li>
+                  <li><a href="./pages/components/adesivacao/perfurado.html">Perfurado</a></li>
                   <li><a href="/pages/components/adesivacao/resinado.html">Resinado</a></li>
                   <li><a href="/pages/components/adesivacao/transparente.html">Transparente</a></li>
                   <li><a href="/pages/components/adesivacao/veiculos.html">Veículos</a></li>
@@ -292,6 +306,7 @@
               </li>
               <li><a href="/pages/components/fachadas/fachada.html">Fachadas</a></li>
               <li><a href="/pages/components/letreiros/letreiro.html">Letreiros</a></li>
+              <li><a href="/pages/components/lonas/lona.html">Lonas</a></li>
               <li>
                 <span class="opener">Brindes Personalizados</span>
                 <ul>

@@ -233,6 +233,40 @@
 					.trigger('resize.sidebar-lock');
 
 				});
+				document.addEventListener("DOMContentLoaded", function() {
+					let currentSlide = 0;
+					const slides = document.querySelectorAll('.carousel-slide');
+					const totalSlides = slides.length;
+				
+					function showSlide(slideIndex) {
+						if (slideIndex >= totalSlides) {
+							currentSlide = 0;
+						} else if (slideIndex < 0) {
+							currentSlide = totalSlides - 1;
+						} else {
+							currentSlide = slideIndex;
+						}
+				
+						const offset = -currentSlide * 100;
+						document.querySelector('.carousel').style.transform = `translateX(${offset}%)`;
+					}
+				
+					function nextSlide() {
+						showSlide(currentSlide + 1);
+					}
+				
+					function prevSlide() {
+						showSlide(currentSlide - 1);
+					}
+				
+					// Botões de navegação
+					document.querySelector('.next-btn').addEventListener('click', nextSlide);
+					document.querySelector('.prev-btn').addEventListener('click', prevSlide);
+				
+					// Mudança automática de slide a cada 8 segundos
+					setInterval(nextSlide, 8000);
+				});
+				
 
 	// Menu.
 		var $menu = $('#menu'),

@@ -39,6 +39,75 @@ iframe {
   border-radius: 15px;
 }
 
+ 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-container {
+  position: relative;
+  width: 80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  min-width: 100%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.prev-btn, .next-btn {
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border:none;
+  color: white;
+  font-size: 20px; 
+  cursor: pointer;
+  width: 30px;  
+    height: 30px; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 5px; 
+  z-index: 1;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+        .data {
+          font-size: 0.8em; 
+          font-family: 'Times New Roman', Times, serif;
+          color: #000000;
+          margin-top: 5px;
+          
+      }
+        
+    
+
 html,
 body,
 div,
