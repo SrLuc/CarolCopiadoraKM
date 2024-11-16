@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
+      content="width=device-width, initial-scale=0.5, user-scalable=yes"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
   </head>
@@ -66,14 +66,50 @@
                 <div class="carousel-container">
                   <div class="carousel"> 
                       <div class="carousel-slide"><!-- A div carrousel-slide representa a imagem, caso queira adicionar mais é só copiar a div e selecionar a imagem pelo img scr -->
-                          <img src="images/Estamos em bv.png" alt="Imagem 1">
+                          <img src="images/Banner Carrosel/Estamos em bv.png" alt="Imagem 1">
                       </div>
                       <div class="carousel-slide">
-                          <img src="images/formatura.png" alt="Imagem 2">
+                          <img src="images/Banner Carrosel/formatura.png" alt="Imagem 2">
                       </div>
                       <div class="carousel-slide">
-                          <img src="images/adesivos resinados.png" alt="Imagem 3">
+                          <img src="images/Banner Carrosel/adesivos resinados.png" alt="Imagem 3">
                       </div>
+                      <!--COLAR AQUI-->
+
+
+                      <!--FIM DO COLAR AQUI-->
+                      <!--
+                      
+                      Passo a Passo para alterar ou adcionar algo ao banner:
+                      Passo 1 - Copiar este codigo:
+
+                      <div class="carousel-slide">
+                          <img src="" alt="Imagem NUMERO">
+                      </div>
+                      
+                      Passo 2 - Alterar os dados do src para o caminho da imagem e alt para o numero da imagem correspondente a sua posição:
+
+                      (Você deve adcionar as imagens correspondente a proporção 16:9 em 1920x1080p)
+                      
+                      Você deve colocar "images/Banner Carrosel/ Nome do arquivo da Imagem"
+
+                      Você deve colocar a legenda alt para o numero da imagem correspondente a sua posição dentro do carrosel.
+
+
+                      alt="Imagem 4"
+                      
+                      Passo 3 - su codigo vai ficar algo similar a isto:
+
+                      <div class="carousel-slide">
+                          <img src=images/Banner Carrosel/NovaImagem.png alt="4">
+                      </div>
+                      
+                      Passo 4 - Voce deve colar o seu codigo entre o comentario Colar Aqui e Fim do Colar Aqui
+
+                      OBS:
+                      CASO QUEIRA ALTERAR ALGUMA IMAGEM, A REMOVENDO OU A ALTERANDO SINTA-SE LIVRE PARA EXCLUIR, CONTANTO QUE A DIV(carousel-slide) PERMANEÇA COM SUA ESTRUTURA DENTRO DA DIV(carousel-container)
+                      -->
+
                     </div>
                   <button class="prev-btn" onclick="prevSlide()">&#10094;</button>
                   <button class="next-btn" onclick="nextSlide()">&#10095;</button>
