@@ -47,10 +47,12 @@ iframe {
 
 .carousel-container {
   position: relative;
-  width: 80%;
+  width: 100%;
   margin:auto;
   overflow: hidden;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
+  border-radius: 20px;
+  
 }
 
 .carousel {
