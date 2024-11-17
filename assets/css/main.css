@@ -13,13 +13,14 @@
 /*STYLES*/
 
 .buttonsbigs {
-  margin: 13px 0;
+  margin: 5px;
 }
 
 .flexbuttons {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .title {
@@ -27,7 +28,7 @@
 }
 
 .logo-img {
-  width: 300px;
+  width: 200px;
 }
 
 iframe {
@@ -47,12 +48,10 @@ iframe {
 
 .carousel-container {
   position: relative;
-  width: 100%;
+  width: 70%;
   margin:auto;
   overflow: hidden;
-  padding-bottom: 3em;
-  border-radius: 20px;
-  
+  border-radius: 15px;
 }
 
 .carousel {
@@ -374,7 +373,6 @@ i {
 }
 
 p {
-  margin: 0 0 2em 0;
   font-size: 17px;
 }
 
@@ -402,9 +400,7 @@ h6 a {
 }
 
 h1 {
-  font-size: 4em;
-  margin: 0 0 0.5em 0;
-  line-height: 1.3;
+  font-size: 2em;
 }
 
 h2 {
@@ -1962,7 +1958,7 @@ ul {
   padding-left: 1em;
 }
 ul li {
-  padding-left: 0.5em;
+
 }
 ul.alt {
   list-style: none;
@@ -1999,9 +1995,10 @@ ul.actions {
   list-style: none;
   margin-left: -1em;
   padding-left: 0;
+  
 }
 ul.actions li {
-  padding: 0 0 0 1em;
+  
   vertical-align: middle;
 }
 ul.actions.special {
@@ -2968,7 +2965,7 @@ button:disabled,
   display: -ms-flex;
   display: flex;
   border-bottom: solid 5px var(--cor-secundaria);
-  padding: 6em 0 1em 0;
+  padding: 2em 0 1em 0;
   position: relative;
 }
 #header > * {
@@ -2987,15 +2984,9 @@ button:disabled,
 #header .icons {
   text-align: right;
 }
-@media screen and (max-width: 1680px) {
-  #header {
-    padding-top: 5em;
-  }
-}
+
 @media screen and (max-width: 736px) {
-  #header {
-    padding-top: 6.5em;
-  }
+ 
   #header .logo {
     font-size: 1.25em;
     margin: 0;
@@ -3234,4 +3225,13 @@ button:disabled,
 
 .rodaPe-Draft a:hover{
   color: #000000!important;
+}
+
+.div-centrada {
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.afastar-um-pouquinho{
+  padding-top: 0em;
 }
